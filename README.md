@@ -1,34 +1,105 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">ANKASA TICKETING</h1>
 
-## Getting Started
+<p align="center">
+  <img height="150" src="https://i.ibb.co/WFZVxPb/arkasa-logo.png"  />
+</p>
+<p align="center">
+  Built with Next Js.
+<br/>
+    <br/>
+    <a href="https://github.com/Atiowhy/AnkasaWeb1-0"><strong>Explore the docs »</strong></a>
+    <br/>
+    <br/>
+    <a href="https://github.com/Atiowhy/AnkasaWeb1-0">View Demo</a>
+    .
+    <a href="https://github.com/Atiowhy/AnkasaWeb1-0/issues">Report Bug</a>
+    .
+    <a href="https://github.com/Atiowhy/AnkasaWeb1-0/issues">Request Feature</a>
+</p>
 
-First, run the development server:
+## Table Of Contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+- [About the Project](#about-the-project)
+- [Built With](#built-with)
+- [Installation](#installation)
+- [Contact](#contact)
+
+## About the Project
+
+ANKASA TICKETING is an online ticketing website that provides various features for online plane ticket reservations. Built with Next JS, Tailwind CSS, Express JS, and Postgree SQL.
+
+## Built With
+
+- [Next Js](https://nextjs.org/)
+- [Axios](https://www.npmjs.com/package/axios)
+- [Bootstrap](https://getbootstrap.com/)
+- [Sweetalert](https://www.npmjs.com/package/sweetalert)
+- [Redux](https://www.npmjs.com/package/redux)
+
+## Installation
+
+- Clone
+
+```
+git clone https://github.com/Atiowhy/AnkasaWeb1-0.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Install Module
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```
+npm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- Run Project
 
-## Learn More
+```
+npm run dev
+```
 
-To learn more about Next.js, take a look at the following resources:
+### Build Project
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+npm run build
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+<!-- ## Screenshot
 
-## Deploy on Vercel
+| Register Page | Login Page |
+| ------------- | ------------- |
+| [![Regis.png](https://res.cloudinary.com/dcpi3m2up/image/upload/v1695721129/samples/Ankasa/W-regis_rzquro.png)](https://res.cloudinary.com/dcpi3m2up/image/upload/v1695721129/samples/Ankasa/W-regis_rzquro.png) | [![Login.png](https://res.cloudinary.com/dcpi3m2up/image/upload/v1695721126/samples/Ankasa/W-login_vvsten.png)](https://res.cloudinary.com/dcpi3m2up/image/upload/v1695721126/samples/Ankasa/W-login_vvsten.png) |
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+| Landing Page | Detail Page |
+| :---: | :---: |
+| [![Landing.png](https://res.cloudinary.com/dcpi3m2up/image/upload/v1695721142/samples/Ankasa/w-landingpage_ahmzhc.png)](https://res.cloudinary.com/dcpi3m2up/image/upload/v1695721142/samples/Ankasa/w-landingpage_ahmzhc.png) | [![detail.png](https://res.cloudinary.com/dcpi3m2up/image/upload/v1695721124/samples/Ankasa/w-details_wkqmn5.png)](https://res.cloudinary.com/dcpi3m2up/image/upload/v1695721124/samples/Ankasa/w-details_wkqmn5.png) |
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+| Landing Page Login | Search Page |
+| :---: | :---: |
+| [![landinglogin.png](https://res.cloudinary.com/dcpi3m2up/image/upload/v1695721135/samples/Ankasa/W-landingpagelogin_f8cj22.png)](https://res.cloudinary.com/dcpi3m2up/image/upload/v1695721135/samples/Ankasa/W-landingpagelogin_f8cj22.png) | [![Search.png](https://res.cloudinary.com/dcpi3m2up/image/upload/v1695721141/samples/Ankasa/w-search_hybudu.png)](https://res.cloudinary.com/dcpi3m2up/image/upload/v1695721141/samples/Ankasa/w-search_hybudu.png) |
+
+| Payment Page | Profile Page |
+| :---: | :---: |
+| [![payment.png](https://res.cloudinary.com/dcpi3m2up/image/upload/v1695721128/samples/Ankasa/w-payment_fabcin.png)](https://res.cloudinary.com/dcpi3m2up/image/upload/v1695721128/samples/Ankasa/w-payment_fabcin.png) | [![Profile.png](https://res.cloudinary.com/dcpi3m2up/image/upload/v1695721129/samples/Ankasa/w-profilebooking_oqxkdo.png)](https://res.cloudinary.com/dcpi3m2up/image/upload/v1695721129/samples/Ankasa/w-profilebooking_oqxkdo.png) |
+
+| Pass Page | Pass Page with Modal |
+| :---: | :---: |
+| [![pass.png](https://res.cloudinary.com/dcpi3m2up/image/upload/v1695721131/samples/Ankasa/w-pass_nklfo1.png)](https://res.cloudinary.com/dcpi3m2up/image/upload/v1695721131/samples/Ankasa/w-pass_nklfo1.png) | [![passmodal.png](https://res.cloudinary.com/dcpi3m2up/image/upload/v1695721125/samples/Ankasa/w-booking_ux0xir.png)](https://res.cloudinary.com/dcpi3m2up/image/upload/v1695721125/samples/Ankasa/w-booking_ux0xir.png) |
+
+| Register Mobile View |Login Mobile View | Home Mobile View |
+| :---: | :---: | :---: |
+| [![regismobile.png](https://res.cloudinary.com/dcpi3m2up/image/upload/v1695721139/samples/Ankasa/wr-regis_kjo4ws.jpg)](https://res.cloudinary.com/dcpi3m2up/image/upload/v1695721139/samples/Ankasa/wr-regis_kjo4ws.jpg) | [![loginmobile.png](https://res.cloudinary.com/dcpi3m2up/image/upload/v1695721135/samples/Ankasa/wr-login_midskx.jpg)](https://res.cloudinary.com/dcpi3m2up/image/upload/v1695721135/samples/Ankasa/wr-login_midskx.jpg) | [![homemobile.png](https://res.cloudinary.com/dcpi3m2up/image/upload/v1695721136/samples/Ankasa/wr-ladningpage_uc7avi.jpg)](https://res.cloudinary.com/dcpi3m2up/image/upload/v1695721136/samples/Ankasa/wr-ladningpage_uc7avi.jpg) |
+
+| Navbar Mobile View | Search Mobile View | Detail Mobile View |
+| :---: | :---: | :---: |
+| [![Navbar.png](https://res.cloudinary.com/dcpi3m2up/image/upload/v1695721135/samples/Ankasa/wr-ladningpagelogin_oq4j7p.jpg)](https://res.cloudinary.com/dcpi3m2up/image/upload/v1695721135/samples/Ankasa/wr-ladningpagelogin_oq4j7p.jpg) | [![searchmobile.png](https://res.cloudinary.com/dcpi3m2up/image/upload/v1695721140/samples/Ankasa/wr-search_qhqpbq.jpg)](https://res.cloudinary.com/dcpi3m2up/image/upload/v1695721140/samples/Ankasa/wr-search_qhqpbq.jpg) | [![Detailmobile.png](https://res.cloudinary.com/dcpi3m2up/image/upload/v1695721133/samples/Ankasa/wr-details_w7s4ne.jpg)](https://res.cloudinary.com/dcpi3m2up/image/upload/v1695721133/samples/Ankasa/wr-details_w7s4ne.jpg) |
+
+| Payment Mobile View | Pass Mobile View | Profile Mobile View |
+| :---: | :---: | :---: |
+| [![paymentmobile.png](https://res.cloudinary.com/dcpi3m2up/image/upload/v1695721140/samples/Ankasa/wr-payment_rxgwuz.jpg)](https://res.cloudinary.com/dcpi3m2up/image/upload/v1695721140/samples/Ankasa/wr-payment_rxgwuz.jpg) | [![passmobile.png](https://res.cloudinary.com/dcpi3m2up/image/upload/v1695721139/samples/Ankasa/wr-pass_cv41pv.jpg)](https://res.cloudinary.com/dcpi3m2up/image/upload/v1695721139/samples/Ankasa/wr-pass_cv41pv.jpg) | [![profilemobile.png](https://res.cloudinary.com/dcpi3m2up/image/upload/v1695721139/samples/Ankasa/wr-profile_utusi0.jpg)](https://res.cloudinary.com/dcpi3m2up/image/upload/v1695721139/samples/Ankasa/wr-profile_utusi0.jpg) | -->
+
+## Contact
+
+- Email : [`atiowahyudi02@gmail.com`](mailto:atiowahyudi02@gmail.com)
+
+- LinkedIn : [`in/atio-wahyudi-saputra/`](https://www.linkedin.com/in/atio-wahyudi-saputra/)
+
+- GitHub : [`Atiowhy`](https://github.com/Atiowhy)
